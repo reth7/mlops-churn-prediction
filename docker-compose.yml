@@ -1,0 +1,21 @@
+version: '3'
+services:
+  api:
+    build: .
+    ports:
+      - "8000:8000"
+
+  mlflow:
+    image: mlflow/mlflow
+    ports:
+      - "5000:5000"
+    environment:
+      - MLFLOW_TRACKING_URI=http://mlflow:5000
+    volumes:
+      - ./mlruns:/mlflow/mlruns
+
+  dashboard:
+    build:
+      context: ./dashboard
+    ports:
+      - "8501:8501"

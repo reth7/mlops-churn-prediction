@@ -1,0 +1,14 @@
+artifact_uri: file:///D:/General/MLOps_Customer_churn/mlruns/659973400027297992/717c1385e1254e9eb06b14bcb6d9ae7a/artifacts
+end_time: 1750063637450
+entry_point_name: ''
+experiment_id: '659973400027297992'
+lifecycle_stage: active
+run_id: 717c1385e1254e9eb06b14bcb6d9ae7a
+run_name: orderly-eel-305
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1750063592048
+status: 3
+tags: []
+user_id: rithv

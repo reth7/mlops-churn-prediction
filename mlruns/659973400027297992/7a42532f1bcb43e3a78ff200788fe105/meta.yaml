@@ -1,0 +1,14 @@
+artifact_uri: file:///D:/General/MLOps_Customer_churn/mlruns/659973400027297992/7a42532f1bcb43e3a78ff200788fe105/artifacts
+end_time: 1750056637387
+entry_point_name: ''
+experiment_id: '659973400027297992'
+lifecycle_stage: active
+run_id: 7a42532f1bcb43e3a78ff200788fe105
+run_name: invincible-hawk-47
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1750056622189
+status: 3
+tags: []
+user_id: rithv
