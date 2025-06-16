@@ -40,9 +40,9 @@ This project builds a customer churn prediction pipeline:
 
 ```mermaid
 flowchart TD
-    A[Raw Data CSV] -->|Preprocessing| B[Model Training (XGBoost)]
+    A[Raw Data - CSV] -->|Preprocessing| B[Model Training - XGBoost]
     B -->|Log to| C[MLflow Tracking Server]
-    B -->|Save| D[Trained Model (.pkl)]
+    B -->|Save| D[Trained Model - .pkl]
     D -->|Loads| E[FastAPI Prediction Service]
     E -->|REST API| F[Streamlit Dashboard]
     F -->|User Inputs| E
