@@ -39,7 +39,7 @@ This project builds a customer churn prediction pipeline:
 ## 🏗 Project Architecture
 
 ```mermaid
-graph TD
+flowchart TD
     A[Raw Data (CSV)] -->|Preprocessing| B[Model Training (XGBoost)]
     B -->|Log to| C[MLflow Tracking Server]
     B -->|Save| D[Trained Model (.pkl)]
